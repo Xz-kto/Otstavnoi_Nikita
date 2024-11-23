@@ -1,0 +1,224 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+div {
+	align-content: space-evenly;
+	justify-content: center;
+	text-align: center;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.con1 {
+	display: flex;
+	flex-direction: row;
+	height: 550px;
+	background: linear-gradient(#7BBBFF, #4699E9) fixed; 
+	color: white;
+}
+
+.c11 {
+	width: 396px;
+	text-align: left;
+	align-content: start;
+}
+
+#img1 {
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+
+#p1 {
+	text-align: justify;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.c12 {
+	width: 594px;
+	text-align: right;
+}
+
+#img2 {
+	width: 75%;
+	height: auto;
+}
+
+.con2 {
+	display: flex;
+	flex-direction: column;
+	height: 420px;
+}
+
+.c21 {
+	height: 140px;
+}
+
+.c22 {
+	height: 280px;
+	display: flex;
+	flex-direction: row;
+}
+
+.c221, .c222, .c223 {
+	height: 280px;
+	width: 330px;
+}
+
+.con3 {
+	flex-direction: row;
+	height: 500px;
+	background-color: #ebf2f880;
+}
+
+.con4 {
+	flex-direction: row;
+	height: 704px;
+	background-color: #ebf2f8;
+}
+
+.validation {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.error-label {
+	color: red;
+	font-size: 12px;
+}
+
+.con5 {
+	flex-direction: row;
+	height: 140px;
+	background: repeating-linear-gradient(#1F5FA6, #2988D7 70px); 
+	color: white;
+}
+
+#Name, #Телефон, #E-mail, #Тема, #Вопрос, #Telephone, #Email, #First, #Last, #qDate, #qTime, #Gender, #Age, #Запись {
+	width: 300px;
+	height: 35px;
+	border: solid #BBBBBB;
+	padding-left: 20px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+#Узнать {
+	width: 180px;
+	height: 40px;
+	background-color: #FFD426;
+	border: solid #FFD426;
+}
+
+h3 {
+	padding-top: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+		font-size: 1.15rem;
+	}
+	#p1 {
+		font-size: 0.95rem;
+	}
+}
+
+@media screen and ((min-width: 992px) and (max-width: 1199.9px)) {
+	body {
+		font-size: 1.15rem;
+	}
+	.c11 {
+		width: 320px;
+	}
+	.c12 {
+		width: 480px;
+	}
+	#p1 {
+		font-size: 0.85rem;
+	}
+	.con2 {
+		height: 700px;
+		flex-wrap: wrap;
+	}
+	.c22 {
+		height: 560px;
+		flex-wrap: wrap;
+	}
+	.c221, .c222, .c223 {
+		width: 400px;
+	}
+}
+
+@media screen and ((min-width: 768px) and (max-width: 991.9px)) {
+	body {
+		font-size: 1.3rem;
+	}
+	.con1 {
+		height: 800px;
+		flex-direction: column;
+	}
+	.c11, .c12 {
+		margin: 0 auto;
+		text-align: center;
+		align-content: space-around;
+	}
+	.c11 {
+		height: 450px;
+		width: 320px;
+	}
+	.c12 {
+		height: 350px;
+		width: 480px;
+	}
+	#img1 {
+		padding-bottom: 25px;
+	}
+	#p1 {
+		text-align: center;
+		font-size: 0.85rem;
+		padding-top: 0px;
+		padding-bottom: 10px;
+	}
+	#img2 {
+		width: 50%;
+	}
+	.con2 {
+		height: 980px;
+	}
+	.c22 {
+		height: 840px;
+		flex-direction: column;
+	}
+	.c221, .c222, .c223 {
+		margin: 0 auto;
+	}
+	#Name, #Телефон, #E-mail, #Тема, #Вопрос, #Telephone, #Email, #First, #Last, #qDate, #qTime, #Gender, #Age, #Запись {
+		width: 300px;
+		height: 40px;
+	}
+}
