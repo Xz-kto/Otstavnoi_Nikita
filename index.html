@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="con1">
+                <div class="c11">
+                    <img id="img1" src="img/logo.png">
+                    <h2>
+                        С помощью нас</br>
+                        вы сможете создать то, о чем
+                    </h2>
+                    <h1 style="padding-top: 10px;">желаете!</h1>
+                    <p id="p1">Наши возможности + опыт позволят Вам достичь огромного успеха. Мы верим в вас! И знаем это на все 100%. Вас не остановить!</p>
+                    <input  id="Узнать" type="button" name="Узнать болше.." value="Узнать болше.." onclick="">
+                </div>
+
+                <div class="c12">
+                    <img id="img2" src="img/header-img.png">
+                </div>
+        </div>
+
+        <div class="con2">
+            <div class="c21">
+                <h2 style="padding-top: 50px;">Что Вам необходимо?</h2>
+            </div>
+
+            <div class="c22">
+                <div class="c221">
+                    <img src="img/f3.png">
+                    <h3>Первый блок</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="c222">
+                    <img src="img/f4.png">
+                    <h3>Второй блок</h3>
+                    <p> Lorem, ipsum dolor, sit amet consectetur adipiscing elit?</p>
+                </div>
+
+                <div class="c223">
+                    <img src="img/f5.png">
+                    <h3>Третий блок</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="con3">
+            <h2 style="margin-bottom: 42px;">Форма заказа обратного звонка</h2>
+            <form>
+                <input id="Name" type="text" placeholder="Имя" required pattern="[A-Za-zА-Яа-я]{2,16}"></br>
+                <input id="E-mail" type="email" placeholder="Укажите свой E-mail" required></br>
+                <input id="Телефон" type="tel" placeholder="Телефон: ххх-ххх-хх-хх" required pattern="\d{3}-\d{3}-\d{2}-\d{2}"></br>
+                <input id="Тема" type="text" placeholder="Какая тема Вас интересует?" required maxlength="100"></br>
+                <input id="Вопрос" type="submit" value="Отправить заявку!" style="background-color: #FFD426;">
+            </form>
+        </div>
+
+        <div class="con4">
+            <h2 style="margin-bottom: 42px;">Форма подачи заявки на консультацию</h2>
+            <form id="Form-2">
+                <div class="validation">
+                    <input id="First" data-="" type="text" placeholder="Имя">
+                </div>
+
+                <div class="validation">
+                    <input id="Last" type="text" placeholder="Фамилия">
+                </div>
+
+                <div class="validation">
+                    <input id="Age" type="number" min="1" placeholder="Возраст">
+                </div>
+
+                <select id="Gender">
+                    <option>Мужской</option>
+                    <option>Женский</option>
+                </select>
+
+                <div class="validation">
+                    <input id="Email" type="email" placeholder="E-mail">
+                </div>
+
+                <div class="validation">
+                    <input id="Telephone" type="tel" placeholder="Телефон: xxx-xxx-xx-xx">
+                </div>
+
+                <div class="validation">
+                    <input id="qDate" type="date">
+                </div>
+
+                <div class="validation">
+                    <input id="qTime" type="time">
+                </div>
+                
+                <button id="Запись" type="submit" style="background-color: #FFD426;">Записаться!</button>
+            </form>
+            <script src="lab8.js"></script>
+        </div>
+
+        <div class="con5">
+            © Все на этом сайте защищено
+        </div>
+    </div>
+</body>
+</html>
